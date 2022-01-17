@@ -140,13 +140,21 @@ body{
 .containerfive{
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
-    flex-flow: row;
-    height: 600px;
+    flex-flow: row wrap;
+    height: auto;
+    width: 100%;
 }
 
 .parts{
-    
+    display: flex;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+  }
+
+.parts img{
+    height: 100px;
+    width:350px;
 }
 
 
