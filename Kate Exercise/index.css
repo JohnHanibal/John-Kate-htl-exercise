@@ -1,0 +1,149 @@
+body{
+    margin: 0;
+    font-family: 'Varela Round', serif;
+    background-color: darkgray;
+}
+
+.containerone{
+    display: flex;
+    background-color: darkgrey;
+    color:white;
+    align-items:center;
+    justify-content: space-between;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+.containerone .iconname .links{
+    padding: 20px;
+}
+
+.containerone .iconname{
+    display: flex;
+    align-items:center;
+}
+
+.links a{
+    text-decoration: none;
+    color: white;
+}
+
+.containertwo{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: white;
+    flex-wrap: wrap;
+}
+
+.containertwo a{
+    text-decoration: none;
+    color: black;
+}
+
+_________________________________________________________________
+
+.containertwo .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+.containertwo .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  
+.containertwo .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+__________________________________________________________________
+
+.containerthree{
+    display: flex;
+}
+
+.containerthree img{
+    height: 100%;
+    width:100%;
+}
+
+.containerthree{
+    display: flex;
+}
+
+.containerfour{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-color: darkgrey;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    background-color: white;
+    flex-wrap: wrap;
+}
+
+.incontfour {
+    height: 50px;
+    width:100px;
+    background-color: black;
+    color:white;
+    border-color: black;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 130px;
+    height: 45px;
+    margin-left: 30px;
+    margin-top: 35px;
+}
+
+.incontfour a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.incontfour a:visited{
+    color: white;
+}
+
+.incontfour button:hover{
+    background-color: grey;
+}
+
+.containerfour img{
+    height: 120px;
+}
+
+.containerfive img{
+    height: 100%;
+    width: 100%;
+}
+
+.containersix{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #E30074;
+    color: white;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.containersix .heading{
+    width: 100%;
+}
+
+footer{
+    background-color: darkgrey;
+    text-align: center;
+    color: white;
+    margin-top: 5px;
+}
