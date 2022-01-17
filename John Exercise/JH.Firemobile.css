@@ -26,7 +26,8 @@ body{
 .header2{
     display: flex;
     flex-flow: row;
-    background-color: #fd4456;; 
+    background-color: #b30000
+;; 
     justify-content: center;
     justify-content: space-evenly;
     z-index: 900;
@@ -66,7 +67,8 @@ body{
 
 
 .header a:hover{
-    background-color: #FE4F60;
+    background-color: #b30000
+;
     
 }
 
@@ -107,17 +109,42 @@ img{
     justify-content: space-evenly;
 }
 
+
+
 .flexbox-item{
     width:20%;
     margin:10px;
     border:10px;
     border: 3px solid;
     height: 400px;
-    background-color:#FE4F60 ;
+    background-color:#b30000
+ ;
     text-align: center;
     margin-bottom: 7%;
+    
 }
 
+    .Buy{
+    margin-top: 5%;
+    height: 8%;
+    width: 40%;
+    font-size: 18pt;   
+    visibility: hidden;
+    }
+
+.flexbox-item:hover{    
+    width: 20%;
+    height: 700px;
+    font-size: 17pt;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out;
+    
+}
+    
+.flexbox-item:hover .Buy{
+    visibility: visible;
+
+}
 .box1{
     align-content: center;
 
@@ -168,7 +195,8 @@ img{
 }
 
 .footer a:hover{
-    color: #FE4F60;
+    color: #b30000
+;
 }
 
 .footer .hr{
@@ -210,14 +238,43 @@ img{
     margin-top: 1%;
     height: 20px;
     width: 98%;
-    background-color: #FE4F60;    
+    background-color: #b30000
+;    
     border: none;
 }
 
 #hr_bottom{
     height: 5px;
     width: 68%;
-    background-color: #FE4F60;    
+    background-color: #b30000
+;    
     border: none;
 }
 
+
+.box{
+    display: flex;
+    justify-content: center;
+}
+
+.rot{
+
+   /* margin-top: 20%;
+   margin-left: 2%; */
+
+    z-index: 950;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    transition-property: width, height;
+    transition-duration: 350ms;
+    transition-timing-function: ease-in-out;
+}
+
+.rot:hover{
+    z-index: 950;
+    width: 200px;
+    height: 200px;
+    background-color: #b30000
+;
+}
