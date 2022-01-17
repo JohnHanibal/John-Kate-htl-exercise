@@ -148,6 +148,8 @@ body{
     justify-content: space-around;
     height: auto;
     width: 100%;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 
 .parts{
@@ -156,8 +158,8 @@ body{
 }
 
 .parts img{
-    height: 100px;
-    width:350px;
+    height: 200px;
+    width:310px;
 }
 
 
