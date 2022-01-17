@@ -1,13 +1,21 @@
 body{
     margin: 0;
-    font-family: 'Varela Round', serif;
-    background-color: darkgray;
+    font-family: 'Architects Daughter', cursive;
+    background-color: whitesmoke;
+}
+
+.navbar{
+        position: fixed; 
+        top: 0; 
+        left: 0; 
+        z-index: 99; 
+        width: 100%; 
 }
 
 .containerone{
     display: flex;
-    background-color: darkgrey;
-    color:white;
+    background-color: whitesmoke;
+    color:orange;
     align-items:center;
     justify-content: space-between;
     padding: 10px;
@@ -21,16 +29,21 @@ body{
 .containerone .iconname{
     display: flex;
     align-items:center;
+    padding-right: 5px;
+}
+
+.containerone .iconname img{
+    padding-right: 9px;    
 }
 
 .links a{
     text-decoration: none;
-    color: white;
+    color: orange;
 }
 
 .containertwo{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 15px;
     background-color: white;
     flex-wrap: wrap;
@@ -41,7 +54,6 @@ body{
     color: black;
 }
 
-_________________________________________________________________
 
 .containertwo .dropdown {
     position: relative;
@@ -61,8 +73,6 @@ _________________________________________________________________
 .containertwo .dropdown:hover .dropdown-content {
     display: block;
   }
-
-__________________________________________________________________
 
 .containerthree{
     display: flex;
@@ -86,6 +96,15 @@ __________________________________________________________________
     margin-bottom: 3px;
     background-color: white;
     flex-wrap: wrap;
+    align-items:center;
+}
+
+.containerfour img{
+    margin-right: 20px;
+}
+
+.textinfour h1{
+    margin-bottom: -15px;
 }
 
 .incontfour {
@@ -100,31 +119,37 @@ __________________________________________________________________
     width: 130px;
     height: 45px;
     margin-left: 30px;
-    margin-top: 35px;
+    margin-top: 5px;
 }
 
 .incontfour a{
     color: white;
     text-decoration: none;
     font-weight: bold;
+    font-family: 'Architects Daughter', cursive;
 }
 
 .incontfour a:visited{
     color: white;
 }
 
-.incontfour button:hover{
+.incontfour:hover{
     background-color: grey;
 }
 
-.containerfour img{
-    height: 120px;
+.containerfive{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-flow: row;
+    height: 600px;
 }
 
-.containerfive img{
-    height: 100%;
-    width: 100%;
+.parts{
+    
 }
+
+
 
 .containersix{
     text-align: center;
@@ -142,8 +167,9 @@ __________________________________________________________________
 }
 
 footer{
-    background-color: darkgrey;
+    background-color: whitesmoke;
     text-align: center;
-    color: white;
+    color: orange;
     margin-top: 5px;
+    margin-bottom: -10px;
 }
