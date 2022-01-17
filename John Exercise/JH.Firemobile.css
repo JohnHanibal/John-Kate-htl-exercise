@@ -3,7 +3,7 @@ body{
   margin: 0%;
   padding: 0;
   /* background-image: url('images/fire.background.jpg') ;  */
-  background-image: linear-gradient(to bottom right,#B30000,black,black,black ,black,black);
+  background-image: linear-gradient(brown,#B30000,black,black ,black);
   background-size: cover;
   background-repeat: no-repeat;
   z-index: 1;
