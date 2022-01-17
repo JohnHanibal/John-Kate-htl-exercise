@@ -15,8 +15,30 @@ body{
     background-color: black ;   
     
     justify-content: space-evenly;
+    z-index: 900;
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    z-index: 9999; 
+    width: 100%;
+}
+
+.header2{
+    display: flex;
+    flex-flow: row;
+    background-color: #fd4456;; 
+    justify-content: center;
+    justify-content: space-evenly;
+    z-index: 900;
+    position: fixed; 
+    top: 7.9%; 
+    left: 0; 
+    z-index: 9999; 
+    width: 100%;
     
 }
+
+
 
 .header img{
         
@@ -41,14 +63,7 @@ body{
     
 }
 
-.header2{
-    display: flex;
-    flex-flow: row;
-    background-color: #fd4456;; 
-    justify-content: center;
-    justify-content: space-evenly;
-    
-}
+
 
 .header a:hover{
     background-color: #FE4F60;
@@ -74,7 +89,7 @@ img{
     font-size: 200%;
     text-decoration:underline;
     color: honeydew;
-    margin: 0;
+    margin-top: 7.9%;
     padding: 0;
     background-image: url("./images/hero2.jpg");
     background-repeat: no-repeat;
@@ -100,6 +115,7 @@ img{
     height: 400px;
     background-color:#FE4F60 ;
     text-align: center;
+    margin-bottom: 7%;
 }
 
 .box1{
@@ -171,3 +187,37 @@ img{
     height: 15%;
     width: 10%;
 }
+
+.cellphoneplans{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    text-decoration-line: underline;
+    text-decoration-line: overline;
+    text-align: center;
+        
+}
+
+.cellphoneplans hr{
+    margin-top: 1%;
+    height: 2px;
+    width: 91%;
+    background-color: white;    
+    border: none;
+}
+
+#hr_top{
+    margin-top: 1%;
+    height: 20px;
+    width: 98%;
+    background-color: #FE4F60;    
+    border: none;
+}
+
+#hr_bottom{
+    height: 5px;
+    width: 68%;
+    background-color: #FE4F60;    
+    border: none;
+}
+
