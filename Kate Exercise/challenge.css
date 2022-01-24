@@ -26,14 +26,10 @@ body{
     flex-wrap: wrap;
 }
 
-.containerone .iconname .links{
-    padding: 20px;
-}
-
 .containerone .iconname{
     display: flex;
     align-items:center;
-    padding-right: 5px;
+    margin-left: 2%;
 }
 
 .containerone .iconname img{
@@ -166,12 +162,16 @@ body{
 .containersix{
     text-align: center;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     flex-wrap: wrap;
-    background-color: #E30074;
+    background-color: orange;
     color: white;
     font-weight: bold;
     padding-bottom: 20px;
+}
+
+.containersix img{
+    border-radius: 5px;
 }
 
 .containersix .heading{
@@ -179,9 +179,40 @@ body{
 }
 
 footer{
+    display: flex;
     background-color: whitesmoke;
     text-align: center;
     color: orange;
     margin-top: 5px;
     margin-bottom: -10px;
+}
+
+.contactformcont{
+    float: left;
+    justify-content: center;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    width: 50%;
+}
+
+.contactformcont input{
+    border-radius: 4px;
+    border-color: solid 1px;
+    padding: 3px;
+    background-color: orange;
+    font-family: 'Architects Daughter', cursive;
+}
+
+.contactformcont textarea{
+    border-radius: 4px;
+    border-color: solid;
+    margin-top: -1.5%;
+    background-color: orange;
+}
+
+.pageinfofoot{
+    float: right;
+    justify-content: center;
+    width: 50%;
+    margin-top: 10%;
 }
