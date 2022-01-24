@@ -1,1 +1,0 @@
-# John-Kate-htl-exercise
