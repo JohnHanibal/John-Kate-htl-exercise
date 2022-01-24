@@ -5,25 +5,21 @@ body{
 }
 
 .navbar{
-        position: fixed; 
-        top: 0; 
-        left: 0; 
-        z-index: 99; 
-        width: 100%; 
-}
-
-.navbar img{
-    background-size: 100% 100%;
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    z-index: 99; 
+    width: 100%; 
 }
 
 .containerone{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items:center;
     background-color: whitesmoke;
     color:orange;
-    align-items:center;
-    justify-content: space-between;
-    padding: 10px;
-    flex-wrap: wrap;
+    padding: 5px;
 }
 
 .containerone .iconname{
@@ -33,10 +29,10 @@ body{
 }
 
 .containerone .iconname img{
-    padding-right: 9px;    
+    padding-right: 25px;    
 }
 
-.links a{
+.logos a{
     text-decoration: none;
     color: orange;
 }
@@ -52,8 +48,8 @@ body{
 .containertwo a{
     text-decoration: none;
     color: black;
+    font-size: small;
 }
-
 
 .containertwo .dropdown {
     position: relative;
@@ -75,32 +71,29 @@ body{
   }
 
 .containerthree{
+    width: 100%;
     display: flex;
 }
 
 .containerthree img{
     height: 100%;
-    width:100%;
-}
-
-.containerthree{
-    display: flex;
+    width: 100%;
 }
 
 .containerfour{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items:center;
     border-color: darkgrey;
     margin-top: 3px;
     margin-bottom: 3px;
     background-color: white;
-    flex-wrap: wrap;
-    align-items:center;
 }
 
 .containerfour img{
     margin-right: 20px;
+    padding:4%;
 }
 
 .textinfour h1{
@@ -157,7 +150,6 @@ body{
     height: 200px;
     width:310px;
 }
-
 
 .containersix{
     text-align: center;
@@ -216,3 +208,12 @@ footer{
     width: 50%;
     margin-top: 10%;
 }
+
+@media screen and (min-width: 769px) and (max-width: 1024px) { 
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) { 
+}
+   
+@media screen and (max-width: 480px) { 
+}       
