@@ -30,6 +30,8 @@ body{
 
 .containerone .iconname img{
     padding-right: 25px;    
+    height: 50px;
+    width:50px;
 }
 
 .logos a{
@@ -210,6 +212,206 @@ footer{
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) { 
+    .navbar{
+        position: fixed; 
+        top: 0; 
+        left: 0; 
+        z-index: 99; 
+        width: 100%; 
+    }
+    
+    .containerone{
+        padding: 1px;
+    }
+    
+    .containerone .iconname{
+        display: flex;
+        align-items:center;
+        margin-left: 2%;
+    }
+    
+    .containerone .iconname img{
+        padding-right: 25px;
+        height:30px;
+        width:30px;    
+    }
+    
+    .logos a{
+        text-decoration: none;
+        color: orange;
+    }
+    
+    .containertwo{
+        display: flex;
+        justify-content: space-around;
+        padding: 15px;
+        background-color: white;
+        flex-wrap: wrap;
+    }
+    
+    .containertwo a{
+        text-decoration: none;
+        color: black;
+        font-size: small;
+    }
+    
+    .containertwo .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+      
+    .containertwo .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        padding: 12px 16px;
+        z-index: 1;
+      }
+      
+    .containertwo .dropdown:hover .dropdown-content {
+        display: block;
+      }
+    
+    .containerthree{
+        width: 100%;
+        display: flex;
+    }
+    
+    .containerthree img{
+        height: 100%;
+        width: 100%;
+    }
+    
+    .containerfour{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items:center;
+        border-color: darkgrey;
+        margin-top: 3px;
+        margin-bottom: 3px;
+        background-color: white;
+    }
+    
+    .containerfour img{
+        margin-right: 20px;
+        padding:4%;
+    }
+    
+    .textinfour h1{
+        margin-bottom: -15px;
+    }
+    
+    .incontfour {
+        height: 50px;
+        width:100px;
+        background-color: black;
+        color:white;
+        border-color: black;
+        border-radius: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 130px;
+        height: 45px;
+        margin-left: 30px;
+        margin-top: 5px;
+    }
+    
+    .incontfour a{
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        font-family: 'Architects Daughter', cursive;
+    }
+    
+    .incontfour a:visited{
+        color: white;
+    }
+    
+    .incontfour:hover{
+        background-color: grey;
+    }
+    
+    .containerfive{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        height: auto;
+        width: 100%;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    
+    .parts{
+        height: auto;
+        width:20%;
+    }
+    
+    .parts img{
+        height: 200px;
+        width:310px;
+    }
+    
+    .containersix{
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        background-color: orange;
+        color: white;
+        font-weight: bold;
+        padding-bottom: 20px;
+    }
+    
+    .containersix img{
+        border-radius: 5px;
+    }
+    
+    .containersix .heading{
+        width: 100%;
+    }
+    
+    footer{
+        display: flex;
+        background-color: whitesmoke;
+        text-align: center;
+        color: orange;
+        margin-top: 5px;
+        margin-bottom: -10px;
+    }
+    
+    .contactformcont{
+        float: left;
+        justify-content: center;
+        margin-left: 2%;
+        margin-bottom: 2%;
+        width: 50%;
+    }
+    
+    .contactformcont input{
+        border-radius: 4px;
+        border-color: solid 1px;
+        padding: 3px;
+        background-color: orange;
+        font-family: 'Architects Daughter', cursive;
+    }
+    
+    .contactformcont textarea{
+        border-radius: 4px;
+        border-color: solid;
+        margin-top: -1.5%;
+        background-color: orange;
+    }
+    
+    .pageinfofoot{
+        float: right;
+        justify-content: center;
+        width: 50%;
+        margin-top: 10%;
+    }
 }
 
 @media screen and (min-width: 481px) and (max-width: 768px) { 
