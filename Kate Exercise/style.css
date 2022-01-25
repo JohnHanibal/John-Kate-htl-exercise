@@ -252,7 +252,7 @@ footer{
     }
 
     .logos{
-        margin-right: 13%;
+        margin-right: 1%;
     }
 
     .logos a img{
@@ -261,8 +261,8 @@ footer{
     }
     
     .containertwo{
+        margin-top:-1%;
         padding: 3px;
-        margin-right: 5%;
     }
     
     .containertwo a{
@@ -270,7 +270,7 @@ footer{
     }
     
     .containerthree{
-        margin-top: 4%;
+        margin-top: 1%;
     }
     
     .containerfour img{
@@ -303,23 +303,21 @@ footer{
     
     .containerfive{
         display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: center;
+        flex-direction: row;
+        justify-content: space-around;
         text-align: center;
         height: auto;
-        padding: 3%;
     }
     
     .parts{
         height: auto;
-        width:90%;
+        width:25%;
         margin-bottom: 3%;
     }
     
     .parts img{
-        height: 200px;
-        width:310px;
+        height: 160px;
+        width: 250px;
     }
     
     .containersix{
@@ -381,215 +379,42 @@ footer{
     }
 }
 
-@media screen and (min-width: 481px) and (max-width: 768px) { 
-    .containerone{
-        padding: 1px;
-    }
-    
+@media screen and (min-width: 481px) and (max-width: 768px){ 
     .containerone .iconname{
-        margin-left: 3%;
+        margin-left: 10px;
     }
     
     .containerone .iconname img{
-        padding-right: 10px;
-        height:18px;
-        width:18px;    
-    }
-    
-    .containerone .iconname h1{
-        font-size: medium;
-    }
-
-    .logos{
-        margin-right: 11%;
-    }
-
-    .logos a img{
-        width:11px;
-        height:11px;
-    }
-    
-    .containertwo{
-        padding: 3px;
-        margin-right: 5%;
-    }
-    
-    .containertwo a{
-        margin-top:6px;
-        font-size: x-small;
-    }
-    
-    .containerthree{
-        margin-top: 12%;
-    }
-    
-    .containerfour img{
-        padding:3%;
-    }
-    
-    .textinfour h1{
-        margin-bottom: -15px;
-        font-size: medium;
-    }
-
-    .textinfour p{
-        font-size: small;
-    }
-    
-    .incontfour {
-        border-radius: 5px;
-        padding-left: 8px;
-        padding-right: 8px;
-        width: 95px;
-        height: 30px;
-        margin-left: 30px;
-        margin-top: 1px;
-    }
-
-    .incontfour a{
-        font-size: x-small;
-    }
-    
-    .containerfour img{
-        height: 40px;
-        width: 40px;
-    }
-    
-    .containerfive{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: center;
-        text-align: center;
-        height: auto;
-        padding: 3%;
-    }
-    
-    .parts{
-        height: auto;
-        width:90%;
-        margin-bottom: 3%;
-    }
-    
-    .parts img{
-        height: 170px;
-        width:260px;
-    }
-
-    .parts h1{
-        font-size: medium;
-    }
-
-    .parts p{
-        font-size: small;
-    }
-   
-    .containersix .heading h1{
-        font-size: large;
-        padding: 2%;
-    }
-
-    .containersix img{
-        height: 150px;
-        width:150px;
-    }
-    
-    footer{
-        flex-direction: column;
-        margin-top: 5px;
-        margin-bottom: -10px;
-    }
-    
-    .contactformcont{
-        justify-content: center;
-        margin-left: 2%;
-        margin-bottom: 2%;
-        width: 100%;
-        margin-bottom: -10px;
-    }
-
-    .contactformcont h1{
-        font-size: large;
-    }
-
-    .contactformcont label{
-        font-size: small;
-    }
-    
-    .contactformcont input{
-        border-radius: 4px;
-        border-color: solid 1px;
-        padding: 2px;
-        width: 110px;
-        font-size: x-small;
-    }
-    
-    .contactformcont textarea{
-        border-radius: 4px;
-        border-color: solid;
-        margin-top: -1.5%;
-        background-color: orange;
-        font-size: small;
-    }
-    
-    .pageinfofoot{
-        justify-content: center;
-        text-align: center;
-        width: 100%;
-        margin-top: 5%;
-    }
-
-    .pageinfofoot img{
-        margin-bottom: -10px;
+        padding-right: 15px;
         height:20px;
-        width:20px;
-    }
-
-    .pageinfofoot h4{
-        margin-bottom: -1%;
-    }
-}
-   
-@media screen and (max-width: 480px) { 
-    .containerone{
-        padding: 1px;
-    }
-    
-    .containerone .iconname{
-        margin-left: 3%;
-    }
-    
-    .containerone .iconname img{
-        padding-right: 10px;
-        height:18px;
-        width:18px;    
+        width:20px;    
     }
     
     .containerone .iconname h1{
-        font-size: medium;
+        font-size: large;
     }
 
     .logos{
-        margin-right: 11%;
+        padding-right: 5%;
     }
 
     .logos a img{
-        width:11px;
-        height:11px;
+        width:13px;
+        height:13px;
     }
     
     .containertwo{
+        margin-top:-1%;
         padding: 3px;
-        margin-right: 5%;
+        padding-right: 5%;
     }
     
     .containertwo a{
-        margin-top:6px;
-        font-size: x-small;
+        margin-top:3px;
     }
     
     .containerthree{
-        margin-top: 12%;
+        margin-top: 1%;
     }
     
     .containerfour img{
@@ -597,7 +422,7 @@ footer{
     }
     
     .textinfour h1{
-        margin-bottom: -15px;
+        margin-bottom: -17px;
         font-size: medium;
     }
 
@@ -609,14 +434,10 @@ footer{
         border-radius: 5px;
         padding-left: 8px;
         padding-right: 8px;
-        width: 95px;
-        height: 30px;
+        width: 120px;
+        height: 36px;
         margin-left: 30px;
-        margin-top: 1px;
-    }
-
-    .incontfour a{
-        font-size: x-small;
+        margin-top: 5px;
     }
     
     .containerfour img{
@@ -631,8 +452,6 @@ footer{
         justify-content: center;
         text-align: center;
         height: auto;
-        padding: 3%;
-        width: 100%;
     }
     
     .parts{
@@ -642,35 +461,211 @@ footer{
     }
     
     .parts img{
-        height: 160px;
-        width:250px;
+        height: 200px;
+        width: 310px;
     }
 
-    .parts h1{
-        font-size: medium;
+    .parts hr{
+        width:100%;
     }
-
-    .parts p{
-        font-size: x-small;
-    }
-   
+    
     .containersix{
-        width: 100%;
-        flex-direction: column;
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        background-color: orange;
+        color: white;
+        font-weight: bold;
+        padding-bottom: 20px;
     }
-
-    .containersix .heading h1{
-        font-size: medium;
-        padding: 5%;
-    }
-
+    
     .containersix img{
-        height: 130px;
-        width:130px;
+        border-radius: 5px;
+    }
+    
+    .containersix .heading{
+        width: 100%;
     }
     
     footer{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        background-color: whitesmoke;
+        text-align: center;
+        color: orange;
+        margin-top: 5px;
+        margin-bottom: -10px;
+        width: 100%;
+    }
+    
+    .contactformcont{
+        justify-content: center;
+        margin-left: 2%;
+        margin-bottom: 2%;
+        width: 50%;
+    }
+    
+    .contactformcont input{
+        border-radius: 4px;
+        border-color: solid 1px;
+        background-color: orange;
+        font-family: 'Architects Daughter', cursive;
+    }
+    
+    .contactformcont textarea{
+        border-radius: 4px;
+        border-color: solid;
+        margin-top: -1.5%;
+        background-color: orange;
+        width: 200px;
+    }
+    
+    .pageinfofoot{
+        text-align: center;
+        width: 20%;
+        margin-top: 10%;
+    }
+}
+   
+@media screen and (max-width: 480px) { 
+    .containerone .iconname{
+        margin-left: 10px;
+    }
+    
+    .containerone .iconname img{
+        padding-right: 15px;
+        height:20px;
+        width:20px;    
+    }
+    
+    .containerone .iconname h1{
+        font-size: medium;
+    }
+
+    .logos{
+        padding-right: 5%;
+    }
+
+    .logos a img{
+        width:13px;
+        height:13px;
+    }
+    
+    .containertwo{
+        justify-content: space-around;
+        margin-top:-1%;
+        padding: 3px;
+        margin-right: 1%;
+    }
+    
+    .containertwo a{
+        margin-top:6px;
+        font-size: xx-small;
+    }
+    
+    .containerthree{
+        margin-top: 15%;
+    }
+
+    .containerthree img{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .containerfour img{
+        padding:3%;
+        margin-right: -2%;
+    }
+    
+    .textinfour h1{
+        margin-bottom: -13px;
+        font-size: medium;
+    }
+
+    .textinfour p{
+        font-size: x-small;
+    }
+    
+    .incontfour {
+        border-radius: 5px;
+        padding-left: 8px;
+        padding-right: 8px;
+        width: 100px;
+        height: 30px;
+        margin-left: 10px;
+        margin-top: 5px;
+        font-size: x-small;
+        margin-right: 10%;
+    }
+    
+    .containerfour img{
+        height: 30px;
+        width: 30px;
+    }
+    
+    .containerfive{
+        display: flex;
         flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        height: auto;
+        padding: 1%;
+        width: 100%;
+    }
+    
+    .parts{
+        justify-content: center;
+        height: auto;
+        width:100%;
+        margin-bottom: 3%;
+        font-size: x-small;
+    }
+    
+    .parts img{
+        height: 200px;
+        width:310px;
+    }
+
+    .parts hr{
+        width:90%;
+    }
+    .parts p{
+        padding: 3%;
+    }
+    
+    .containersix{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        background-color: orange;
+        color: white;
+        font-weight: bold;
+        padding-bottom: 20px;
+        width: 100%;
+    }
+    
+    .containersix img{
+        border-radius: 5px;
+    }
+    
+    .containersix .heading{
+        width: 100%;
+        font-size: small;
+    }
+    
+    footer{
+        display: flex;
+        flex-direction: column;
+        background-color: whitesmoke;
+        justify-content: center;
+        text-align: center;
+        color: orange;
         margin-top: 5px;
         margin-bottom: -10px;
     }
@@ -680,23 +675,14 @@ footer{
         margin-left: 2%;
         margin-bottom: 2%;
         width: 100%;
-        margin-bottom: -10px;
-    }
-
-    .contactformcont h1{
-        font-size: small;
-    }
-
-    .contactformcont label{
-        font-size: small;
     }
     
     .contactformcont input{
         border-radius: 4px;
         border-color: solid 1px;
-        padding: 2px;
-        width: 110px;
-        font-size: x-small;
+        padding: 3px;
+        background-color: orange;
+        font-family: 'Architects Daughter', cursive;
     }
     
     .contactformcont textarea{
@@ -704,28 +690,14 @@ footer{
         border-color: solid;
         margin-top: -1.5%;
         background-color: orange;
-        font-size: x-small;
+        width:150px;
     }
     
     .pageinfofoot{
+        height: auto;
         justify-content: center;
-        text-align: center;
         width: 100%;
-        margin-top: 5%;
+        margin-top: 10%;
+        font-size: x-small;
     }
-
-    .pageinfofoot img{
-        margin-top: 7%;
-        margin-bottom: -10px;
-        height:20px;
-        width:20px;
-    }
-
-    .pageinfofoot h4{
-        margin-bottom: -1%;
-    }
-
-    .pageinfofoot p{
-        font-size: small;
-    }
-}       
+}
